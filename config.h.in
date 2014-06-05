@@ -1,0 +1,93 @@
+
+
+#cmakedefine _SRC_STATETRACKER_CONFIG_H 1
+
+/* src/statetracker-config.h. Generated automatically at end of configure. */
+/* config.h.  Generated from config.h.in by configure.  */
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to enable debugging features */
+#cmakedefine STATE_TRACKER_DEBUG 1
+
+/* Use Boost library */
+#cmakedefine STATE_TRACKER_HAVE_BOOST /**/
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_DLFCN_H 1
+
+/* Define to 1 if you have the <execinfo.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_EXECINFO_H 1
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_INTTYPES_H 1
+
+/* Define to 1 if you have the <memory.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_MEMORY_H 1
+
+/* Define if you have the MPI library. */
+#cmakedefine STATE_TRACKER_HAVE_MPI 1
+
+/* Define to 1 if you have the <pthread.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_PTHREAD_H 1
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_STDINT_H 1
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_STDIO_H 1
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_STDLIB_H 1
+
+/* Define to 1 if you have the <strings.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_STRINGS_H 1
+
+/* Define to 1 if you have the <string.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_STRING_H 1
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_SYS_STAT_H 1
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_SYS_TYPES_H 1
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine STATE_TRACKER_HAVE_UNISTD_H 1
+
+/* Define to enable logging features */
+/* #undef LOGGING */
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+ *    */
+#cmakedefine STATE_TRACKER_LT_OBJDIR ".libs/"
+
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+/* #undef NO_MINUS_C_MINUS_O */
+
+/* Name of package */
+#cmakedefine STATE_TRACKER_PACKAGE "statetracker"
+
+/* Define to the address where bug reports for this package should be sent. */
+#cmakedefine STATE_TRACKER_PACKAGE_BUGREPORT "ilaguna@llnl.gov"
+
+/* Define to the full name of this package. */
+#cmakedefine STATE_TRACKER_PACKAGE_NAME "statetracker"
+
+/* Define to the full name and version of this package. */
+#cmakedefine STATE_TRACKER_PACKAGE_STRING "statetracker 0.1"
+
+/* Define to the one symbol short name of this package. */
+#cmakedefine STATE_TRACKER_PACKAGE_TARNAME "statetracker"
+
+/* Define to the version of this package. */
+#cmakedefine STATE_TRACKER_PACKAGE_VERSION "0.1"
+
+/* Define to 1 if you have the ANSI C header files. */
+#cmakedefine STATE_TRACKER_STDC_HEADERS 1
+
+/* Version number of package */
+#cmakedefine STATE_TRACKER_VERSION "0.1"
+
+/* Use Callpath library */
+#cmakedefine STATE_TRACKER_WITH_CALLPATH 1
+

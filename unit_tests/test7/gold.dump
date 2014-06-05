@@ -1,0 +1,44 @@
+#START_DEPENDENCY_GRAPH
+0,1,0,
+0,0,0,
+1,1,0,
+#END_DEPENDENCY_GRAPH
+#START_STATES
+0:../../../install/lib/libstracker.so(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaad1a9c7]|../../../install/lib/libstracker.so(_ZN9Backtrace12getBacktraceEv+0x2c) [0x2aaaaad1ac5c]|../../../install/lib/libstracker.so(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaad179f8]|../../../install/lib/libstracker.so(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x2aaaaad17aa5]|../../../install/lib/libstracker.so(MPI_Pcontrol+0x43) [0x2aaaaad05283]|/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/./test(main+0x91) [0x400ded]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac80fcdc]
+1:../../../install/lib/libstracker.so(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaad1a9c7]|../../../install/lib/libstracker.so(_ZN9Backtrace12getBacktraceEv+0x2c) [0x2aaaaad1ac5c]|../../../install/lib/libstracker.so(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaad179f8]|../../../install/lib/libstracker.so(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x2aaaaad17aa5]|../../../install/lib/libstracker.so(MPI_Pcontrol+0x43) [0x2aaaaad05283]|/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/./test(main+0xc6) [0x400e22]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac80fcdc]
+2:../../../install/lib/libstracker.so(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaad1a9c7]|../../../install/lib/libstracker.so(_ZN9Backtrace12getBacktraceEv+0x2c) [0x2aaaaad1ac5c]|../../../install/lib/libstracker.so(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaad179f8]|../../../install/lib/libstracker.so(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x2aaaaad17b75]|../../../install/lib/libstracker.so(_Z13beforeMPICallPKcz+0x12) [0x2aaaaacfe802]|../../../install/lib/libstracker.so(MPI_Barrier+0x26) [0x2aaaaad00406]|/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/./test(main+0x116) [0x400e72]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac80fcdc]
+#END_STATES
+#START_TASK_LOC
+0:3:1
+1:1:1
+2:0,2,4-15:14
+#END_TASK_LOC
+#START_SOURCE_CODE_LINES
+0,/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:90|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:60|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:170|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:132|_ZN18TransitionsManager22transitionAfterMPICallEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/mpi_wrappers.h:5664|MPI_Pcontrol|*
+/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/test.C:47|main
+??:0|__libc_start_main
+1,/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:90|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:60|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:170|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:132|_ZN18TransitionsManager22transitionAfterMPICallEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/mpi_wrappers.h:5664|MPI_Pcontrol|*
+/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/test.C:56|main
+??:0|__libc_start_main
+2,/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:90|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/backtrace.C:60|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:170|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/transitions.C:91|_ZN18TransitionsManager23transitionBeforeMPICallEv|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/main_controller.C:160|_Z13beforeMPICallPKcz|*
+/g/g90/mitra3/work/automaded_merge/statetracker/src/mpi_wrappers.h:8202|MPI_Barrier|*
+/g/g90/mitra3/work/automaded_merge/statetracker/unit_tests/test7/test.C:65|main
+??:0|__libc_start_main
+#END_SOURCE_CODE_LINES
+#START_STATE_TYPES
+0:COMPUTATION_CODE
+1:COMPUTATION_CODE
+2:COMMUNICATION_CODE
+#END_STATE_TYPES

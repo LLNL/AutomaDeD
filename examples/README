@@ -1,0 +1,42 @@
+1. Intro
+========
+
+This directory gives some examples how PRODOMETER/AutomaDeD can be used to find 
+Least Progressed task.
+test.C in each subdirectory represents a particular scenario. "fault" function
+is called from different ranks to create a fault in that task. 
+For example, in example1, the code first distributes data across all tasks, then perform some
+computation. and finally, collects results using a global reduction. Process 3
+is faulty and hangs (forever). AutomaDeD then identifies process 3 as the
+least-progressed task.   
+
+2. Building
+===========
+
+Make sure that the STATETRACKER_LIB variable in Makefile points to the location
+where the library was installed. Then simply run 'make'.
+
+3. Running
+==========
+
+"cd" to the example directory.
+First, please specify in the 'run_example.sh' file the path of the library via
+the LD_LIBRARY_PATH variable. Then execute:
+
+	$ ./run_example.sh 
+
+
+4. Output
+=========
+
+This is a sample output that you should expect(for example1):
+
+$ ./run_example.sh 
+    s 0 s 1 s 2 
+    ------------
+s 0|  0   0   0 
+s 1|  1   0   0 
+s 2|  1   1   0 
+Number of states with LP-tasks: 1
+STATE 0, tasks: [3]
+<other details about states etc.>
