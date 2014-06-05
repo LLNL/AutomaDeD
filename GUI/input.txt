@@ -1,0 +1,45 @@
+#START_DEPENDENCY_GRAPH
+0,0,0,
+1,0,0,
+1,1,0,
+#END_DEPENDENCY_GRAPH
+#START_STATES
+0:/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaaf5e647]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace12getBacktraceEv+0x8) [0x2aaaaaf5e8b8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaaf5ba08]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager22transitionAfterMPICallEv+0x18) [0x2aaaaaf5baa8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(MPI_Comm_rank+0x51) [0x2aaaaaf44b71]|/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/./example_1(main+0x42) [0x400d99]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac7a3cdc]
+1:/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaaf5e647]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace12getBacktraceEv+0x8) [0x2aaaaaf5e8b8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaaf5ba08]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager23transitionBeforeMPICallE13OperationTypeRK9MPIParams+0x18) [0x2aaaaaf5baf8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_Z13beforeMPICallPKcz+0x4b) [0x2aaaaaf449db]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(MPI_Reduce+0x7c) [0x2aaaaaf54e7c]|/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/./example_1(main+0x144) [0x400e9b]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac7a3cdc]
+2:/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace15getGNUBacktraceEv+0x37) [0x2aaaaaf5e647]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN9Backtrace12getBacktraceEv+0x8) [0x2aaaaaf5e8b8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager10buildStateEv+0x18) [0x2aaaaaf5ba08]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_ZN18TransitionsManager23transitionBeforeMPICallE13OperationTypeRK9MPIParams+0x18) [0x2aaaaaf5baf8]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(_Z14beforeFinalizev+0x43) [0x2aaaaaf56b13]|/g/g90/mitra3/work/code/automaded_main_branch/install/lib/libstracker.so.0(MPI_Finalize+0x1c) [0x2aaaaaf56bbc]|/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/./example_1(main+0x16c) [0x400ec3]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaaac7a3cdc]
+#END_STATES
+#START_TASK_LOC
+0:3:1
+1:0:1
+2:1-2,4-15:14
+#END_TASK_LOC
+#START_SOURCE_CODE_LINES
+0,/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:45|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:33|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:82|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:69|_ZN18TransitionsManager22transitionAfterMPICallEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/mpi_wrappers.h:8833|MPI_Comm_rank|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/example_1.C:27|main
+??:0|__libc_start_main
+1,/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:45|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:33|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:82|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:38|_ZN18TransitionsManager23transitionBeforeMPICallE13OperationTypeRK9MPIParams|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/main_controller.C:139|_Z13beforeMPICallPKcz|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/mpi_wrappers.h:958|MPI_Reduce|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/example_1.C:55|main
+??:0|__libc_start_main
+2,/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:45|_ZN9Backtrace15getGNUBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/backtrace.C:33|_ZN9Backtrace12getBacktraceEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:82|_ZN18TransitionsManager10buildStateEv|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/transitions.C:38|_ZN18TransitionsManager23transitionBeforeMPICallE13OperationTypeRK9MPIParams|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/main_controller.C:103|_Z14beforeFinalizev|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/src/mpi_wrappers.h:9180|MPI_Finalize|*
+/g/g90/mitra3/work/code/automaded_main_branch/statetracker/examples/example_1.C:60|main
+??:0|__libc_start_main
+#END_SOURCE_CODE_LINES
+#START_STATE_TYPES
+0:COMPUTATION_CODE
+1:COMMUNICATION_CODE
+2:COMMUNICATION_CODE
+#END_STATE_TYPES
