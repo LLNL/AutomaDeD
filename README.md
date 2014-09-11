@@ -71,21 +71,17 @@ Gamblin, "Probabilistic Diagnosis of Performance Faults in Large-Scale Parallel
 Applications", International Conference on Parallel Architectures and 
 Compilation Techniques (PACT), 2012.
 
---------------------------------------------------------------------------------
-
 Authors
 -------
 
 The main code infrastructure of AutomaDeD was written by: Ignacio Laguna (ilaguna@llnl.gov), LLNL
 
-The code that implements the Prodometer algorithms was written by: Subrata Mitra (mitra4@purdue.edu), Purdue University
+The code that implements the [Prodometer](http://dx.doi.org/10.1145/2666356.2594336) algorithm was written by: Subrata Mitra (mitra4@purdue.edu), Purdue University
 
-Project contributors: \\
-Dong H. Ahn (LLNL) \\
-Saurabh Bagchi (Purdue University) \\
+Project contributors: <br>
+Dong H. Ahn (LLNL)  
+Saurabh Bagchi (Purdue University)  
 Bronis R. de Supinski (LLNL) \\
 Todd Gamblin (LLNL) \\
 Martin Schulz (LLNL) \\
-
---------------------------------------------------------------------------------
 
