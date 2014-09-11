@@ -81,7 +81,7 @@ The code that implements the [Prodometer](http://dx.doi.org/10.1145/2666356.2594
 Subrata Mitra (mitra4@purdue.edu), Purdue University
 
 Project contributors:  
-Dong H. Ahn (LLNL)  
+Dong H. Ahn (LLNL)
 Saurabh Bagchi (Purdue University)
 Bronis R. de Supinski (LLNL)
 Todd Gamblin (LLNL)
