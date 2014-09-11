@@ -7,7 +7,7 @@ This version of AutomaDeD implements the diagnosis algorithm of the [Prodometer]
 
 1. Description
 --------------
-AutomaDeD (Automata-based Debugging for Dissimilar parallel tasks) is a tool for automatic diagnosis of performance and correctness problems in MPI applications. It creates control-flow models of each MPI process and, when a failure occurs, these models are leveraged to find the origin of problems automatically. MPI calls are intercepted (using wrappers) to create the models. When an MPI application hangs, AutomaDeD creates a progress-dependence graph that helps finding the process (or group of processes) that caused the hang. Please refer to [2] for more details.
+AutomaDeD (Automata-based Debugging for Dissimilar parallel tasks) is a tool for automatic diagnosis of performance and correctness problems in MPI applications. It creates control-flow models of each MPI process and, when a failure occurs, these models are leveraged to find the origin of problems automatically. MPI calls are intercepted (using wrappers) to create the models. When an MPI application hangs, AutomaDeD creates a progress-dependence graph that helps finding the process (or group of processes) that caused the hang. Please refer to [1, 2] for more details.
 
                         
 2. Building
@@ -21,7 +21,7 @@ To use callpath library(to normalize the library loading order):
 
 	$ cmake -DCMAKE_INSTALL_PREFIX=<install_path> -DSTATE_TRACKER_WITH_CALLPATH=ON
 
-	This will require two additional libraries callpath and adept_utils. You can get those from the following link:
+This will require two additional libraries callpath and adept_utils. You can get those from the following link:
 	https://github.com/scalability-llnl.
 
 Then:
@@ -74,14 +74,16 @@ Compilation Techniques (PACT), 2012.
 Authors
 -------
 
-The main code infrastructure of AutomaDeD was written by: Ignacio Laguna (ilaguna@llnl.gov), LLNL
+The main code infrastructure of AutomaDeD was written by:  
+Ignacio Laguna (ilaguna@llnl.gov), LLNL
 
-The code that implements the [Prodometer](http://dx.doi.org/10.1145/2666356.2594336) algorithm was written by: Subrata Mitra (mitra4@purdue.edu), Purdue University
+The code that implements the [Prodometer](http://dx.doi.org/10.1145/2666356.2594336) algorithm was written by:  
+Subrata Mitra (mitra4@purdue.edu), Purdue University
 
-Project contributors: <br>
+Project contributors:  
 Dong H. Ahn (LLNL)  
-Saurabh Bagchi (Purdue University)  
-Bronis R. de Supinski (LLNL) \\
-Todd Gamblin (LLNL) \\
-Martin Schulz (LLNL) \\
+Saurabh Bagchi (Purdue University)
+Bronis R. de Supinski (LLNL)
+Todd Gamblin (LLNL)
+Martin Schulz (LLNL)  
 
