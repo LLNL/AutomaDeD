@@ -80,10 +80,10 @@ Ignacio Laguna (ilaguna@llnl.gov), LLNL
 The code that implements the [Prodometer](http://dx.doi.org/10.1145/2666356.2594336) algorithm was written by:  
 Subrata Mitra (mitra4@purdue.edu), Purdue University
 
-Project contributors:  
-Dong H. Ahn (LLNL)
-Saurabh Bagchi (Purdue University)
-Bronis R. de Supinski (LLNL)
-Todd Gamblin (LLNL)
-Martin Schulz (LLNL)  
+Project contributors: <br>
+Dong H. Ahn (LLNL) <br>
+Saurabh Bagchi (Purdue University) <br>
+Bronis R. de Supinski (LLNL) <br>
+Todd Gamblin (LLNL) <br>
+Martin Schulz (LLNL)  <br>
 
