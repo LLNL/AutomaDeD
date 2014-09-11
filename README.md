@@ -1,5 +1,7 @@
                                 AutomaDeD 1.0
-             Automata-based Debugging for Dissimilar parallel tasks       
+             Automata-based Debugging for Dissimilar parallel tasks
+             
+                            [Prodometer version](http://dx.doi.org/10.1145/2666356.2594336)
 
 AutomaDeD is a tool for automatic diagnosis of performance and correctness 
 problems in MPI applications. It creates control-flow models of each MPI 
