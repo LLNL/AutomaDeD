@@ -64,6 +64,7 @@ If callpath is used, currently it does not give the full file name and line numb
 [1] Subrata Mitra, Ignacio Laguna, Dong H. Ahn, Saurabh Bagchi, Martin Schulz, Todd Gamblin, [Accurate application progress analysis for large-scale parallel debugging](http://dx.doi.org/10.1145/2666356.2594336), ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI), 2014.
 
 [2] Ignacio Laguna, Dong H. Ahn, Bronis R. de Supinski, Saurabh Bagchi, Todd Gamblin, [Probabilistic Diagnosis of Performance Faults in Large-Scale Parallel Applications](http://dx.doi.org/10.1145/2370816.2370848), International Conference on Parallel Architectures and Compilation Techniques (PACT), 2012.
+
 [3] Ignacio Laguna, Todd Gamblin, Bronis R. de Supinski, Saurabh Bagchi, Greg Bronevetsky, Dong H. Ahn, Martin Schulz, Barry Rountree, "[Large Scale Debugging of Parallel Tasks with AutomaDeD](http://dx.doi.org/10.1145/2063384.2063451), ACM/IEEE Conference for High Performance Computing, Networking, Storage and Analysis (SC), Seattle, WA, Nov 2011.
 
 [4] Greg Bronevetsky, Ignacio Laguna, Surabh Bagchi, Bronis R. de Supinski, Dong H. Ahn, Martin Schulz, [AutomaDeD: Automata-Based Debugging for Dissimilar Parallel Tasks](http://dx.doi.org/10.1109/DSN.2010.5544927), IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), Chicago Illinois, Jun-Jul, 2010.
