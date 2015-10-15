@@ -1,4 +1,9 @@
 #
+# Skip MPI C++ interface.
+#
+add_definitions(-DMPICH_SKIP_MPICXX -DOMPI_SKIP_MPICXX)
+
+#
 # Set up includes and linking for the stack trace library
 # that we are using here.
 #
